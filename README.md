@@ -15,11 +15,13 @@ One message becomes a bookable trip: the agent asks only what it really needs, s
 > This repository is an English translation, republished with the teammates' permission.
 > The product itself speaks Russian — it was built for a Russian travel platform — so the
 > interface, the bot, the LLM prompts and the test requests stay in Russian; the code,
-> the comments and the documentation are in English.
+> the comments and the documentation are in English. The screenshots and the GIF show the
+> interface with its text rendered in English at capture time (a translation overlay over
+> the live Russian UI, map labels in English); the data behind them is real.
 
 ## The main idea: a plan is a structure, not a text
 
-Several agents work on every message, but none of them writes the plan. A trip is a typed graph: stays and legs with stable ids, the offers chosen for them, conditions that remember where they came from ("you said", "from your trip to Kazan", "a default") and a version for every change. The LLM only understands language and words the answer; everything that touches money, dates or the choice of an offer is computed by code, through a closed set of operations with permissions per agent.
+Several agents work on every message, but none of them writes the plan. A trip is a typed graph: stays and legs with stable ids, the offers chosen for them, conditions that remember where they came from ("you said", "from your trip to Cyprus", "a default") and a version for every change. The LLM only understands language and words the answer; everything that touches money, dates or the choice of an offer is computed by code, through a closed set of operations with permissions per agent.
 
 That one decision is what makes the rest possible:
 
@@ -32,17 +34,17 @@ That one decision is what makes the rest possible:
 
 The track asked for a system that remembers your past trips. We made that memory something you can see and hold: past trips sit on a shelf as coloured drops, and you pour them into a bowl. The concept absorbs them like liquid, its colour turns into a mix of the trips inside, and their tastes appear below as ingredients of the new trip.
 
-![Pouring two past trips into one concept](docs/screenshots/craft-pour.gif)
+![Pouring Japan, Egypt and Cyprus into one concept](docs/screenshots/craft-pour.gif)
 
 <table>
 <tr>
-<td width="50%"><img src="docs/screenshots/craft-concept.png" alt="The concept with two trips poured in"></td>
+<td width="50%"><img src="docs/screenshots/craft-concept.png" alt="The concept with three trips poured in"></td>
 <td width="50%"><img src="docs/screenshots/craft-ingredients.png" alt="Merged tastes, a conflict and context that is off by default"></td>
 </tr>
 </table>
 
 - **Tastes merge, they never overwrite.** "Breakfast included" from both trips becomes one chip with two coloured dots — one per source trip.
-- **Conflicts are the user's call.** One trip wanted "4★ and up", the other "3★ and up": the chip shows the chosen variant and offers the other one next to it.
+- **Conflicts are the user's call.** Egypt wanted "5★ and up", Cyprus "4★ and up": the chip shows the chosen variant and offers the other one next to it.
 - **Context is offered, not applied.** The party, the budget and the length of a trip are off by default — silently carrying a family trip's party into a business trip is the classic way to get a wrong plan — but one tap switches them on, and they travel as editable text in your next message.
 - **Everything is reversible.** Pull a trip's token out of the bowl and a drop tears away from the concept through a liquid neck; its tastes leave with it, the shared ones stay.
 - **Provenance survives into the plan.** Inherited conditions are applied as soft ones, and the answer says where they came from; whatever you say in the new trip always wins.
@@ -217,7 +219,7 @@ The first build takes a few minutes, later ones seconds. Only Docker and Compose
 | `GIGACHAT_AUTH_KEY` in `.env` | the app starts, `/ready` reports `llm: missing`, and the agent answers with an error |
 | Access to `mcp.tutu.ru` (hotels and transport) | `auto` mode fills the gaps with demo data labelled «демо». `HOTELS_SOURCE=tutu` / `TRANSPORT_SOURCE=tutu` means live data only |
 
-For the blending demo there is an optional seed: three finished trips (Japan, Turkey, Kazan) with ratings for your guest user.
+For the blending demo there is an optional seed: three finished trips (Japan, Egypt, Cyprus) with ratings for your guest user.
 
 ```bash
 make seed USER_ID=<user uuid>        # the id is in the users table or in the POST /api/v1/auth/guest response

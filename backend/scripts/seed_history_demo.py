@@ -1,6 +1,6 @@
 """Seed past trips with feedback for the blend demo ("drag Japan into China").
 
-Creates three finished trips for one user (Japan, Turkey, Kazan) with the criteria the user chose, who travelled,
+Creates three finished trips for one user (Japan, Egypt, Cyprus) with the criteria the user chose, who travelled,
 the budget and a rating, then rebuilds the learned profile. Idempotent per title: running it twice does not
 duplicate trips.
 
@@ -38,13 +38,14 @@ def _shift(state: dict, days: int) -> dict:
     return out
 
 
-def _city_trip(title: str, city: str, lat: float, lon: float, start: date, nights: int, hotel: str, amenities: list[str]) -> dict:
+def _city_trip(title: str, city: str, lat: float, lon: float, start: date, nights: int, hotel: str, amenities: list[str],
+               stars: int = 4, rating: float = 8.9, price: int = 90000) -> dict:
     end = start + timedelta(days=nights)
     return {"title": title, "status": "ready", "sequence": ["stay"],
             "places": {"city": {"name": city, "lat": lat, "lon": lon}},
             "nodes": {"stay": {"type": "stay", "place": "city", "check_in": start.isoformat(), "check_out": end.isoformat(),
                                "selected_offer_ref": "hotel"}},
-            "offers": {"hotel": {"name": hotel, "stars": 4, "rating": 8.9, "amenities": amenities, "price": 90000, "currency": "RUB"}}}
+            "offers": {"hotel": {"name": hotel, "stars": stars, "rating": rating, "amenities": amenities, "price": price, "currency": "RUB"}}}
 
 
 TRIPS = [
@@ -54,16 +55,19 @@ TRIPS = [
       "priorities": [{"key": "location", "weight": 2.5}, {"key": "transfers", "weight": 1.5}],
       "party": {"adults": 2}, "budget": {"amount": "450000", "currency": "RUB", "scope": "trip"}},
      [("stay_osaka", 1, {"location": 1, "rating": 1})]),
-    ({**_city_trip("Турция", "Анталья", 36.8969, 30.7133, date(2025, 8, 10), 7, "Akra Hotel", ["завтрак", "бесплатная отмена", "бассейн"]),
-      "constraints": [{"kind": "breakfast", "value": True}, {"kind": "free_cancellation", "value": True},
-                      {"kind": "min_stars", "value": 4}, {"kind": "kid_friendly", "value": True}],
-      "priorities": [{"key": "price", "weight": 1.5}, {"key": "meal", "weight": 2.0}],
-      "party": {"adults": 2, "children_ages": [6]}, "budget": {"amount": "280000", "currency": "RUB", "scope": "trip"}},
+    ({**_city_trip("Египет", "Хургада", 27.2579, 33.8116, date(2026, 2, 14), 7, "Steigenberger Aldau Beach",
+                   ["завтрак", "детский клуб", "бассейн"], stars=5, rating=9.1, price=168000),
+      "constraints": [{"kind": "breakfast", "value": True}, {"kind": "min_stars", "value": 5},
+                      {"kind": "kid_friendly", "value": True}],
+      "priorities": [{"key": "meal", "weight": 2.0}, {"key": "price", "weight": 1.5}],
+      "party": {"adults": 2, "children_ages": [6]}, "budget": {"amount": "250000", "currency": "RUB", "scope": "trip"}},
      [("stay", 1, {"meal": 1, "price": 1})]),
-    ({**_city_trip("Казань", "Казань", 55.7963, 49.1088, date(2026, 5, 1), 3, "Courtyard Kazan Kremlin", ["завтрак"]),
-      "constraints": [{"kind": "breakfast", "value": True}, {"kind": "min_stars", "value": 3}],
+    ({**_city_trip("Кипр", "Лимассол", 34.6786, 33.0413, date(2026, 9, 12), 6, "Amara Limassol",
+                   ["завтрак", "бесплатная отмена", "вид на море"], rating=9.3, price=142000),
+      "constraints": [{"kind": "breakfast", "value": True}, {"kind": "free_cancellation", "value": True},
+                      {"kind": "min_stars", "value": 4}],
       "priorities": [{"key": "location", "weight": 2.0}],
-      "party": {"adults": 1}, "budget": {"amount": "40000", "currency": "RUB", "scope": "stay"}},
+      "party": {"adults": 2}, "budget": {"amount": "300000", "currency": "RUB", "scope": "trip"}},
      [("stay", 1, {"location": 1})]),
 ]
 
