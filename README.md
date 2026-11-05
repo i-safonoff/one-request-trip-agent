@@ -17,8 +17,6 @@ One message becomes a bookable trip: the agent asks only what it really needs, s
 > interface, the bot, the LLM prompts and the test requests stay in Russian; the code,
 > the comments and the documentation are in English.
 
-- Screencast of the submission (in Russian): https://disk.yandex.ru/d/v8oDlzgzn0SMeA
-
 ## The main idea: a plan is a structure, not a text
 
 Several agents work on every message, but none of them writes the plan. A trip is a typed graph: stays and legs with stable ids, the offers chosen for them, conditions that remember where they came from ("you said", "from your trip to Kazan", "a default") and a version for every change. The LLM only understands language and words the answer; everything that touches money, dates or the choice of an offer is computed by code, through a closed set of operations with permissions per agent.
