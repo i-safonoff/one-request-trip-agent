@@ -1,0 +1,244 @@
+{
+ "hotel": {
+  "hotel_id": "7649055",
+  "name": "Cosmos Smart Москва Дубининская",
+  "stars": 3,
+  "rating": 9.05,
+  "review_count": 596,
+  "review_summary": {
+   "rating": 9.05,
+   "scale": 10,
+   "review_count": 596,
+   "text": "Великолепно",
+   "aspects": [
+    {
+     "rating": 9.03,
+     "scale": 10,
+     "text": "Цена/Качество",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.03/10 · Цена/Качество"
+    },
+    {
+     "rating": 9.0,
+     "scale": 10,
+     "text": "Чистота",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.0/10 · Чистота"
+    },
+    {
+     "rating": 9.17,
+     "scale": 10,
+     "text": "Расположение",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.17/10 · Расположение"
+    },
+    {
+     "rating": 8.88,
+     "scale": 10,
+     "text": "Комфорт",
+     "scope": "hotel_aspect",
+     "label": "⭐ 8.88/10 · Комфорт"
+    },
+    {
+     "rating": 9.03,
+     "scale": 10,
+     "text": "Питание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.03/10 · Питание"
+    },
+    {
+     "rating": 9.06,
+     "scale": 10,
+     "text": "Обслуживание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.06/10 · Обслуживание"
+    }
+   ]
+  },
+  "reviews": {
+   "reviews": [
+    {
+     "review_id": "a1",
+     "rating": 9.8,
+     "created_at": "2026-10-24T00:00:00Z",
+     "author": "Olga",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "single",
+        "text": "Только я"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Всегда останавливаюсь здесь."
+      },
+      {
+       "sentiment": "cons",
+       "text": "-"
+      }
+     ]
+    },
+    {
+     "review_id": "a2",
+     "rating": 9.7,
+     "created_at": "2026-10-21T00:00:00Z",
+     "author": "Olga",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "single",
+        "text": "Только я"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Часто останавливаюсь в этом отеле! Нравится все. Завтрак отличный!"
+      },
+      {
+       "sentiment": "cons",
+       "text": "-"
+      }
+     ]
+    },
+    {
+     "review_id": "a3",
+     "rating": 10.0,
+     "created_at": "2026-10-11T00:00:00Z",
+     "author": "Fatima",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      }
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Это отличный отель, расположенный рядом с Павелецким вокзалом, в 10 минутах пешей ходьбы от вокзала. Питание шикарное, персонал вежливый, уборка номера вполне себе хорошая! Ежедневно ставили 2 бутылочки воды, на день рождения ребенка принесли пирожное с маленькой открыткой! Все понравилось. Очень достойный отель, однозначно рекомендую."
+      },
+      {
+       "sentiment": "cons",
+       "text": "Все супер!"
+      }
+     ]
+    },
+    {
+     "review_id": "a4",
+     "rating": 9.0,
+     "created_at": "2026-10-04T00:00:00Z",
+     "author": "Vitalii",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "couple",
+        "text": "С близким человеком"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "очень понравилось,что дали крайний номер(627),меньше соседей и все такое),в целом чистый номер,классный завтрак,спасибо большое персоналу,очень хорошо все организовывали"
+      },
+      {
+       "sentiment": "cons",
+       "text": "шторка в душевой не закрывается и стройка за окном"
+      }
+     ]
+    },
+    {
+     "review_id": "a5",
+     "rating": 10.0,
+     "created_at": "2026-10-01T00:00:00Z",
+     "author": "Pavel",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "single",
+        "text": "Только я"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Расположение, комфорт!"
+      },
+      {
+       "sentiment": "cons",
+       "text": "-"
+      }
+     ]
+    },
+    {
+     "review_id": "a6",
+     "rating": 9.1,
+     "created_at": "2026-09-30T00:00:00Z",
+     "author": "Anna",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      }
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Выбираем не первый раз отель, все нравится! И расположение от Павелецкого не далеко, номер чистый, все необходимое есть!"
+      },
+      {
+       "sentiment": "cons",
+       "text": "-"
+      }
+     ]
+    }
+   ],
+   "total_reviews": 596
+  }
+ }
+}

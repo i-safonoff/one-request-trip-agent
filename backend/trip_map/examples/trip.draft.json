@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "trip_id": "trip_01",
+  "revision": 3,
+  "status": "draft",
+  "party": { "adults": 2, "children_ages": [] },
+  "budget": { "scope": "trip", "currency": "RUB", "max_total": null },
+  "constraints": [],
+  "preferences": [],
+  "places": {
+    "origin": { "name": null },
+    "tokyo": { "name": "Токио" },
+    "osaka": { "name": "Осака" }
+  },
+  "nodes": {
+    "outbound": { "type": "transport", "from": "origin", "to": "tokyo", "departure_date": null, "selected_offer_ref": null },
+    "stay_tokyo": { "type": "stay", "place": "tokyo", "check_in": null, "check_out": null, "selected_offer_ref": null },
+    "tokyo_osaka": { "type": "transport", "from": "tokyo", "to": "osaka", "departure_date": null, "selected_offer_ref": null },
+    "stay_osaka": { "type": "stay", "place": "osaka", "check_in": null, "check_out": null, "selected_offer_ref": null },
+    "return": { "type": "transport", "from": "osaka", "to": "origin", "departure_date": null, "selected_offer_ref": null }
+  },
+  "sequence": ["outbound", "stay_tokyo", "tokyo_osaka", "stay_osaka", "return"],
+  "pricing": { "total": null, "status": "not_quoted" },
+  "pending_questions": [],
+  "provenance": {}
+}

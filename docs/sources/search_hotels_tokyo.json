@@ -1,0 +1,346 @@
+{
+ "hotels": [
+  {
+   "hotel_id": "7301692",
+   "hotel_geo_id": "7301692",
+   "tutu_offer_id": "cbda111a-f653-45a0-9f79-be481b82841f",
+   "name": "APA HOTEL Roppongi Six",
+   "stars": 3,
+   "rating": 9.13,
+   "review_count": 3,
+   "address": "2.4 км от центра",
+   "location": {
+    "lat": 35.66627,
+    "lng": 139.73743,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/content/b2/6d/b26d16fbe5e38a05a13c1a1eb333545194e2471e.jpeg"
+   ],
+   "alias": "apa_hotel_roppongi_six",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7301692&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+   "best_offer": {
+    "offerpack_hash": "099e4227-f6f4-4283-8274-fdff20d38a53",
+    "room_name": "Двухместный номер",
+    "price": {
+     "amount": 34836.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7301692&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 9.13,
+    "review_count": 3,
+    "label": "⭐ 9.13/10 · 3 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "7301692",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "7301692",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "apa_hotel_roppongi_six",
+    "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7301692&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1"
+   },
+   "photos_total": 11
+  },
+  {
+   "hotel_id": "6968992",
+   "hotel_geo_id": "6968992",
+   "tutu_offer_id": "fb61f27a-9ec2-4815-872c-811c9fbc7c24",
+   "name": "Отель Livemax Kayabacho ",
+   "stars": 3,
+   "rating": 9.1,
+   "review_count": 4,
+   "address": "1.4 км от центра",
+   "location": {
+    "lat": 35.67838,
+    "lng": 139.7791,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/content/f6/4a/f64a42788874b568ccf6257ba8fe2a6b5e344b6d.jpeg"
+   ],
+   "alias": "hotel_livemax_kayabacho",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=6968992&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+   "best_offer": {
+    "offerpack_hash": "9b124437-e69e-443a-a1bc-6fc7552f8b0b",
+    "room_name": "Одноместный номер с маленькой двуспальной кроватью",
+    "price": {
+     "amount": 36763.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=6968992&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 9.1,
+    "review_count": 4,
+    "label": "⭐ 9.1/10 · 4 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "6968992",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "6968992",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "hotel_livemax_kayabacho",
+    "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=6968992&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1"
+   },
+   "photos_total": 13
+  },
+  {
+   "hotel_id": "7174435",
+   "hotel_geo_id": "7174435",
+   "tutu_offer_id": "0dd642fc-0309-41fd-93ee-cd162c0c05fa",
+   "name": "belle via tokyo - Vacation STAY 32425v",
+   "stars": 0,
+   "rating": 0.0,
+   "review_count": 0,
+   "address": "6.4 км от центра",
+   "location": {
+    "lat": 35.72872,
+    "lng": 139.73405,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/content/8f/5b/8f5b3cdc1eb8bd918ca0219c3676222e8c55a90c.jpeg"
+   ],
+   "alias": "belle_via_tokyo_vacation_stay_32425v",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7174435&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+   "best_offer": {
+    "offerpack_hash": "fb55ccc0-61fb-46b6-b8e7-089e9b6e3203",
+    "room_name": "Basic Triple Room|1 Double Bed and 1 Twin Bed",
+    "price": {
+     "amount": 33480.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7174435&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     }
+    ]
+   },
+   "review_summary": null,
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "7174435",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "belle_via_tokyo_vacation_stay_32425v",
+    "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7174435&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1"
+   },
+   "photos_total": 5
+  },
+  {
+   "hotel_id": "5700240",
+   "hotel_geo_id": "5700240",
+   "tutu_offer_id": "95b701d8-2b4a-42c7-9fa3-58c081fa09c6",
+   "name": "Mustard Hotel Asakusa 1",
+   "stars": 3,
+   "rating": 8.4,
+   "review_count": 1,
+   "address": "4.7 км от центра",
+   "location": {
+    "lat": 35.710007,
+    "lng": 139.79568,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/content/71/4e/714e6136334ff51d0d74d5bf7055a0f5850135be.jpeg"
+   ],
+   "alias": "mustard_hotel_asakusa_1",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=5700240&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+   "best_offer": {
+    "offerpack_hash": "4ad2c68d-daa1-4cf7-8d6a-fbaa9a6d14ef",
+    "room_name": "2 Bed in Mixed Dormitory Room Non Smoking|2 Twin Beds",
+    "price": {
+     "amount": 29272.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=5700240&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 8.4,
+    "review_count": 1,
+    "label": "⭐ 8.4/10 · 1 отзыв",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "5700240",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "5700240",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "mustard_hotel_asakusa_1",
+    "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=5700240&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1"
+   },
+   "photos_total": 23
+  },
+  {
+   "hotel_id": "7705300",
+   "hotel_geo_id": "7705300",
+   "tutu_offer_id": "e9f126a6-1af1-4a72-8091-b6df49745bec",
+   "name": "Minn Nishi Kasai",
+   "stars": 3,
+   "rating": 9.65,
+   "review_count": 2,
+   "address": "8.5 км от центра",
+   "location": {
+    "lat": 35.665695,
+    "lng": 139.8573,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/content/b6/d2/b6d2a5e78bc4065c4521393fd4eb23d8e6674f78.jpeg"
+   ],
+   "alias": "minn_nishikasai",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7705300&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+   "best_offer": {
+    "offerpack_hash": "73b3f97f-ab34-401b-ab31-329454cbce4b",
+    "room_name": "Четырёхместный номер Standard",
+    "price": {
+     "amount": 39808.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7705300&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": null,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": []
+   },
+   "review_summary": {
+    "rating": 9.65,
+    "review_count": 2,
+    "label": "⭐ 9.65/10 · 2 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "7705300",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "7705300",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "minn_nishikasai",
+    "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7705300&geo_name=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&room%5B0%5D=2&search_id=19d39cbc8c8b486f4d04f7ff62ff1ed1"
+   },
+   "photos_total": 33
+  }
+ ],
+ "stay": {
+  "check_in": "2026-11-27",
+  "check_out": "2026-11-30",
+  "nights": 3
+ },
+ "meta": {
+  "checkout_hint": "When the user picks a hotel — in any wording («беру», «первый», «оформи», «забронируй») — call `create_checkout_link` with that hotel's `checkout_ref` and put the returned link in your reply. `best_offer.checkout_url` is the plain-page fallback, not the deeplink.",
+  "search_id": "19d39cbc8c8b486f4d04f7ff62ff1ed1",
+  "page": 1,
+  "page_size": 5,
+  "total_returned": 5,
+  "has_more": true,
+  "geo_id": "2657219",
+  "resolved_geo": {
+   "geo_id": "2657219",
+   "name": "Токио",
+   "country": "Япония",
+   "region": "Канто",
+   "geo_type": "locality",
+   "hotels_count": 15220
+  },
+  "filters_applied": {
+   "option_filters": [],
+   "range_filters": [],
+   "button_filters": [],
+   "quick_filters_order": [],
+   "changes": []
+  },
+  "post_filter_dropped_over_cap": 0,
+  "post_filter_dropped_no_free_cancellation": 0,
+  "post_filter_dropped_no_breakfast": 0
+ }
+}

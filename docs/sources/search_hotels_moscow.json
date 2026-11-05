@@ -1,0 +1,371 @@
+{
+ "hotels": [
+  {
+   "hotel_id": "11322466",
+   "hotel_geo_id": "11322466",
+   "tutu_offer_id": "6d874c11-af45-444e-a1ec-699855fcfdf6",
+   "name": "Cosmos Москва ВДНХ ",
+   "stars": 3,
+   "rating": 7.16,
+   "review_count": 1846,
+   "address": "7.6 км от центра, 384 м от метро ВДНХ",
+   "location": {
+    "lat": 55.82242,
+    "lng": 37.646667,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/7ed32ea04861fa0685606b3b8f66544c2e343fa5.6aeeb512b8b3b9d07a12e116a0453212ec91ec70.jpeg"
+   ],
+   "alias": "kosmos_vdnkh_otel_moskva",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11322466&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+   "best_offer": {
+    "offerpack_hash": "404306ea-c3a3-4cc8-920a-a5d36b703c9d",
+    "room_name": "Стандартный с двумя кроватями",
+    "price": {
+     "amount": 12540.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11322466&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 7.16,
+    "review_count": 1846,
+    "label": "⭐ 7.16/10 · 1 846 отзывов",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "11322466",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "11322466",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "kosmos_vdnkh_otel_moskva",
+    "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11322466&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e"
+   },
+   "photos_total": 20
+  },
+  {
+   "hotel_id": "7644181",
+   "hotel_geo_id": "7644181",
+   "tutu_offer_id": "f8755a10-a902-46f2-9e5a-6e8d8bba8a71",
+   "name": "Гамма Измайлово",
+   "stars": 3,
+   "rating": 8.37,
+   "review_count": 4063,
+   "address": "9.1 км от центра, 351 м от метро Партизанская",
+   "location": {
+    "lat": 55.79144,
+    "lng": 37.747944,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/85631429-d850-402a-b0eb-c477f4f79384/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/b9fd34cfb0e4b14267ddf999339213d0.jpg"
+   ],
+   "alias": "otel_izmaylovo_gamma",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7644181&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+   "best_offer": {
+    "offerpack_hash": "076704bc-3cce-4966-ae1e-488b1388ca7a",
+    "room_name": "Номер стандарт бизнес с 1 двуспальной кроватью",
+    "price": {
+     "amount": 14472.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7644181&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 8.37,
+    "review_count": 4063,
+    "label": "⭐ 8.37/10 · 4 063 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "7644181",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "7644181",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "otel_izmaylovo_gamma",
+    "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=7644181&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e"
+   },
+   "photos_total": 19
+  },
+  {
+   "hotel_id": "10203888",
+   "hotel_geo_id": "10203888",
+   "tutu_offer_id": "ca94aafb-19cf-4a7a-b2c6-b8e6dc2a713c",
+   "name": "Palmira Art Hotel",
+   "stars": 4,
+   "rating": 9.04,
+   "review_count": 133,
+   "address": "6.7 км от центра, 243 м от метро Полежаевская",
+   "location": {
+    "lat": 55.775906,
+    "lng": 37.51644,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/d7047940-ca2f-4b0d-a857-0904c720f249/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/a82b38112d89ae0457bda034a272c179.jpg"
+   ],
+   "alias": "otel_palmira_art",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10203888&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+   "best_offer": {
+    "offerpack_hash": "1a647f7e-c939-46d2-b291-5bb29f916484",
+    "room_name": "Стандарт",
+    "price": {
+     "amount": 24016.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10203888&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 9.04,
+    "review_count": 133,
+    "label": "⭐ 9.04/10 · 133 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "10203888",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "10203888",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "otel_palmira_art",
+    "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10203888&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e"
+   },
+   "photos_total": 57
+  },
+  {
+   "hotel_id": "13447744",
+   "hotel_geo_id": "13447744",
+   "tutu_offer_id": "77fb04ba-c1aa-4f4e-8c58-dace84757a0e",
+   "name": "Фокс",
+   "stars": 0,
+   "rating": 0.0,
+   "review_count": 0,
+   "address": "2 км от центра, 597 м от метро Смоленская",
+   "location": {
+    "lat": 55.753895,
+    "lng": 37.58579,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/0a125a655d1637b3299efa8ccf2c1145ed28909d.13c2cb70ad972edbdd45060529aa5ebb844ef3f1.jpeg"
+   ],
+   "alias": "foks_rossiyskaya_federatsiya_moskva_arbat_g_moskva_novinsky_bul_d_16_str_2",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13447744&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+   "best_offer": {
+    "offerpack_hash": "ae3511c5-eb7f-42ee-af69-1aa0a50a2476",
+    "room_name": "Капсула улучшенная двухместная",
+    "price": {
+     "amount": 4655.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13447744&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": null,
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "13447744",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "foks_rossiyskaya_federatsiya_moskva_arbat_g_moskva_novinsky_bul_d_16_str_2",
+    "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13447744&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e"
+   },
+   "photos_total": 10
+  },
+  {
+   "hotel_id": "10240378",
+   "hotel_geo_id": "10240378",
+   "tutu_offer_id": "b6356117-2136-4023-a8ac-cad946d3ae83",
+   "name": "Максима Панорама ",
+   "stars": 4,
+   "rating": 9.04,
+   "review_count": 243,
+   "address": "5.8 км от центра, 149 м от метро Автозаводская",
+   "location": {
+    "lat": 55.708557,
+    "lng": 37.65658,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/dbaab1c0-623b-4d41-bed9-558271908d37/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/d8f7734840e5a23a5c34415f36fcf87f.jpg"
+   ],
+   "alias": "otel_maksima_panorama",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10240378&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+   "best_offer": {
+    "offerpack_hash": "5e1ef27b-94dd-44dd-b64b-5e2cc1b7a6ce",
+    "room_name": "Стандарт две раздельные кровати  (Отдельные кровати)",
+    "price": {
+     "amount": 18411.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10240378&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 9.04,
+    "review_count": 243,
+    "label": "⭐ 9.04/10 · 243 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "10240378",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "10240378",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "otel_maksima_panorama",
+    "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=10240378&geo_name=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&room%5B0%5D=2&search_id=2aaf7b5b29aeb5449672c851e5a5167e"
+   },
+   "photos_total": 40
+  }
+ ],
+ "stay": {
+  "check_in": "2026-11-27",
+  "check_out": "2026-11-30",
+  "nights": 3
+ },
+ "meta": {
+  "checkout_hint": "When the user picks a hotel — in any wording («беру», «первый», «оформи», «забронируй») — call `create_checkout_link` with that hotel's `checkout_ref` and put the returned link in your reply. `best_offer.checkout_url` is the plain-page fallback, not the deeplink.",
+  "search_id": "2aaf7b5b29aeb5449672c851e5a5167e",
+  "page": 1,
+  "page_size": 5,
+  "total_returned": 5,
+  "has_more": true,
+  "geo_id": "2657260",
+  "resolved_geo": {
+   "geo_id": "2657260",
+   "name": "Москва",
+   "country": "Россия",
+   "region": "Москва",
+   "geo_type": "locality",
+   "hotels_count": 45766,
+   "also_geo": [
+    {
+     "geo_id": "6619918",
+     "name": "Новая Москва",
+     "geo_type": "region",
+     "hotels_count": 3544
+    }
+   ]
+  },
+  "filters_applied": {
+   "option_filters": [],
+   "range_filters": [],
+   "button_filters": [],
+   "quick_filters_order": [],
+   "changes": []
+  },
+  "post_filter_dropped_over_cap": 0,
+  "post_filter_dropped_no_free_cancellation": 0,
+  "post_filter_dropped_no_breakfast": 0
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "offers": [
+  {
+   "offer_id": "bac23d0db5116a780ec2ff91f4b64948",
+   "transport": "railway",
+   "price": {
+    "amount": 1343.27,
+    "currency": "RUB"
+   },
+   "price_party": {
+    "amount": 2686.54,
+    "currency": "RUB"
+   },
+   "duration_min": 320,
+   "carriers": [
+    "ФПК"
+   ],
+   "segments_count": 1,
+   "departure_at": "2026-11-14T17:45:00+03:00",
+   "arrival_at": "2026-11-14T23:05:00+03:00",
+   "legs": [
+    {
+     "label": "outbound",
+     "from": "Москва — Ленинградский вокзал (2006004)",
+     "to": "Санкт-Петербург — Московский вокзал (2004001)",
+     "departure_at": "2026-11-14T17:45:00+03:00",
+     "arrival_at": "2026-11-14T23:05:00+03:00",
+     "duration_min": 320,
+     "segments": [
+      {
+       "from": "Москва — Ленинградский вокзал (2006004)",
+       "to": "Санкт-Петербург — Московский вокзал (2004001)",
+       "departure_at": "2026-11-14T17:45:00+03:00",
+       "arrival_at": "2026-11-14T23:05:00+03:00",
+       "duration_min": 320,
+       "carrier": "ФПК",
+       "voyage_no": "746У",
+       "vehicle_meta": {
+        "name": "АВРОРА",
+        "is_premium": true,
+        "is_double_decker": true
+       }
+      }
+     ]
+    }
+   ],
+   "review_summary": {
+    "rating": 9.4,
+    "review_count": 96
+   },
+   "fares": {
+    "count": 20,
+    "price_from": 1343.27,
+    "price_to": 9699.81,
+    "currency": "RUB",
+    "refundable_count": 15,
+    "changeable_count": 0,
+    "seat_categories": {
+     "SEDENTARY": {
+      "count": 7,
+      "price_from": 1343.27
+     },
+     "COMPARTMENT": {
+      "count": 12,
+      "price_from": 3531.99
+     },
+     "LUX": {
+      "count": 1,
+      "price_from": 9699.81
+     }
+    }
+   }
+  },
+  {
+   "offer_id": "ddceb5007dea9af014638c6f8d068581",
+   "transport": "railway",
+   "price": {
+    "amount": 1579.68,
+    "currency": "RUB"
+   },
+   "price_party": {
+    "amount": 3159.36,
+    "currency": "RUB"
+   },
+   "duration_min": 325,
+   "carriers": [
+    "ДОСС"
+   ],
+   "segments_count": 1,
+   "departure_at": "2026-11-14T15:45:00+03:00",
+   "arrival_at": "2026-11-14T21:10:00+03:00",
+   "legs": [
+    {
+     "label": "outbound",
+     "from": "Москва — Ленинградский вокзал (2006004)",
+     "to": "Санкт-Петербург — Московский вокзал (2004001)",
+     "departure_at": "2026-11-14T15:45:00+03:00",
+     "arrival_at": "2026-11-14T21:10:00+03:00",
+     "duration_min": 325,
+     "segments": [
+      {
+       "from": "Москва — Ленинградский вокзал (2006004)",
+       "to": "Санкт-Петербург — Московский вокзал (2004001)",
+       "departure_at": "2026-11-14T15:45:00+03:00",
+       "arrival_at": "2026-11-14T21:10:00+03:00",
+       "duration_min": 325,
+       "carrier": "ДОСС",
+       "voyage_no": "724В",
+       "vehicle_meta": {
+        "name": "Ласточка"
+       }
+      }
+     ]
+    }
+   ],
+   "review_summary": {
+    "rating": 8.7,
+    "review_count": 645
+   },
+   "fares": {
+    "count": 21,
+    "price_from": 1579.68,
+    "price_to": 4542.57,
+    "currency": "RUB",
+    "refundable_count": 14,
+    "changeable_count": 0,
+    "seat_categories": {
+     "SEDENTARY": {
+      "count": 21,
+      "price_from": 1579.68
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "transport": "railway",
+  "pricing": {
+   "basis": "per_seat",
+   "passengers": 2
+  },
+  "from": {
+   "name": "Москва",
+   "geo_id": "2657260"
+  },
+  "to": {
+   "name": "Санкт-Петербург",
+   "geo_id": "2656915"
+  },
+  "total_matched": 40,
+  "has_more": true
+ }
+}

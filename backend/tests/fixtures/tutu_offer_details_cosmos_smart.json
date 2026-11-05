@@ -1,0 +1,606 @@
+{
+ "hotel": {
+  "hotel_id": "7649055",
+  "name": "Cosmos Smart Москва Дубининская",
+  "address": "Россия, г Москва, ул Дубининская, д 33В",
+  "stars": 3,
+  "rating": 9.05,
+  "review_count": 596,
+  "check_in_time": "15:00:00",
+  "check_out_time": "12:00:00",
+  "amenity_groups": [
+   {
+    "group_name": "Самые популярные удобства",
+    "amenities": [
+     "Бесплатный Wi-Fi",
+     "Круглосуточная стойка регистрации",
+     "Парковка",
+     "Кондиционер",
+     "Завтрак (шведский стол)",
+     "Лобби-бар",
+     "С питомцами нельзя"
+    ]
+   },
+   {
+    "group_name": "Интернет",
+    "amenities": [
+     "Бесплатный Wi-Fi"
+    ]
+   },
+   {
+    "group_name": "Красота и здоровье",
+    "amenities": [
+     "Аптечка первой помощи"
+    ]
+   },
+   {
+    "group_name": "На территории",
+    "amenities": [
+     "Комната хранения",
+     "Лифт"
+    ]
+   },
+   {
+    "group_name": "Питание",
+    "amenities": [
+     "Бар",
+     "Лобби-бар",
+     "Завтрак (шведский стол)",
+     "Чайная станция"
+    ]
+   },
+   {
+    "group_name": "Микроклимат",
+    "amenities": [
+     "Кондиционер"
+    ]
+   },
+   {
+    "group_name": "Услуги",
+    "amenities": [
+     "Сейф",
+     "Прачечная/химчистка",
+     "Глажка белья",
+     "Гладильные принадлежности",
+     "Чистка обуви"
+    ]
+   },
+   {
+    "group_name": "Для работы",
+    "amenities": [
+     "Бизнес-центр",
+     "Переговорная комната",
+     "Организация встреч и банкетов"
+    ]
+   },
+   {
+    "group_name": "Для детей",
+    "amenities": [
+     "Детское меню",
+     "Стульчик для кормления"
+    ]
+   },
+   {
+    "group_name": "Техника и электроника",
+    "amenities": [
+     "Телевизор с плоским экраном",
+     "Кабельное/спутниковое телевидение",
+     "Утюг",
+     "Фен",
+     "Мини-холодильник"
+    ]
+   },
+   {
+    "group_name": "В ванной комнате",
+    "amenities": [
+     "Гигиенические средства"
+    ]
+   },
+   {
+    "group_name": "Для питомцев",
+    "amenities": [
+     "С питомцами нельзя"
+    ]
+   },
+   {
+    "group_name": "Курение на территории",
+    "amenities": [
+     "Курить нельзя везде"
+    ]
+   },
+   {
+    "group_name": "Транспорт",
+    "amenities": [
+     "Парковка",
+     "Заказ такси"
+    ]
+   },
+   {
+    "group_name": "Стойка регистрации",
+    "amenities": [
+     "Круглосуточная стойка регистрации",
+     "Ранняя регистрация заезда",
+     "Поздняя регистрация выезда",
+     "Регистрация иностранных граждан"
+    ]
+   },
+   {
+    "group_name": "Безопасность",
+    "amenities": [
+     "Охрана",
+     "Видеонаблюдение"
+    ]
+   },
+   {
+    "group_name": "Персонал говорит на этих языках",
+    "amenities": [
+     "Русский",
+     "Английский"
+    ]
+   },
+   {
+    "group_name": "Доступность",
+    "amenities": [
+     "Удобства для гостей с ограниченными физическими возможностями"
+    ]
+   }
+  ],
+  "photos": [
+   "https://cdn2.tu-tu.ru/imghub/view/c9546f1b-1556-42d7-b828-2a27f5020a71/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/19e91ae3c8b6cc360927f4c43e855158.jpg",
+   "https://cdn2.tu-tu.ru/imghub/view/e5a83b0b-a8d4-4be5-beb3-192d1f775953/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/b7f82ddae2e344f563823c19900f0fda.jpg"
+  ],
+  "location": {
+   "lat": 55.725067,
+   "lng": 37.638794,
+   "city_geo_id": "2657260",
+   "city": "Москва"
+  },
+  "alias": "kholidey_inn_ekspress_moskva_paveletskaya",
+  "photos_total": 23,
+  "review_summary": {
+   "rating": 9.05,
+   "scale": 10,
+   "review_count": 596,
+   "text": "Великолепно",
+   "aspects": [
+    {
+     "rating": 9.03,
+     "scale": 10,
+     "text": "Цена/Качество",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.03/10 · Цена/Качество"
+    },
+    {
+     "rating": 9.0,
+     "scale": 10,
+     "text": "Чистота",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.0/10 · Чистота"
+    },
+    {
+     "rating": 9.17,
+     "scale": 10,
+     "text": "Расположение",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.17/10 · Расположение"
+    },
+    {
+     "rating": 8.88,
+     "scale": 10,
+     "text": "Комфорт",
+     "scope": "hotel_aspect",
+     "label": "⭐ 8.88/10 · Комфорт"
+    },
+    {
+     "rating": 9.03,
+     "scale": 10,
+     "text": "Питание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.03/10 · Питание"
+    },
+    {
+     "rating": 9.06,
+     "scale": 10,
+     "text": "Обслуживание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.06/10 · Обслуживание"
+    }
+   ]
+  }
+ },
+ "stay": {
+  "check_in": "2026-11-06",
+  "check_out": "2026-11-09",
+  "nights": 3,
+  "guests": {
+   "adults": 2,
+   "children_ages": []
+  }
+ },
+ "rooms": [
+  {
+   "room_name": "Двухместный номер Стандартный",
+   "room_description": "• Двуспальная кровать\n• Кровать queen size\n",
+   "room_amenities": [
+    {
+     "id": "1489",
+     "name": "Кондиционер",
+     "icon": "snowflake"
+    },
+    {
+     "id": "1232",
+     "name": "Ванная комната",
+     "icon": "bath-bubbles"
+    },
+    {
+     "id": "1199",
+     "name": "Фен",
+     "icon": "hairdryer"
+    },
+    {
+     "id": "1177",
+     "name": "Телевизор",
+     "icon": "tv"
+    },
+    {
+     "id": "1110",
+     "name": "Сейф",
+     "icon": "keyhole-square"
+    }
+   ],
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/e278a949-2acf-4cb4-950e-8330e36bfbf7/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/70a7107aa257ce154aaca481aacf97ac.jpg"
+   ],
+   "bed_summary": "Двуспальная кровать ・ Кровать queen size",
+   "bed_type": "double",
+   "view": null,
+   "room_size_sqm": null,
+   "max_occupancy": null,
+   "room_property_items": [
+    {
+     "id": "room_property",
+     "icon": "bed-double",
+     "text": "Двуспальная кровать ・ Кровать queen size"
+    }
+   ],
+   "price_from": {
+    "amount": 17265.0,
+    "currency": "RUB",
+    "price_basis": "stay_total"
+   },
+   "rates": [
+    {
+     "offerpack_hash": "46262dd4-b4db-4aa3-8710-245b1f71af25",
+     "price": {
+      "amount": 17265.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T12:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 12:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "7b48e3a2-e1bc-4e97-accb-1eb85a9ffe08"
+    },
+    {
+     "offerpack_hash": "f00a0b8a-f937-4234-b8ec-a2531344b644",
+     "price": {
+      "amount": 18223.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T21:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 21:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "325b2cdd-2e50-4a1e-9ac1-dd3ce817425a"
+    }
+   ],
+   "photos_total": 4
+  },
+  {
+   "room_name": "Двухместный номер Стандартный",
+   "room_description": "• 2 отдельные кровати\n",
+   "room_amenities": [
+    {
+     "id": "1489",
+     "name": "Кондиционер",
+     "icon": "snowflake"
+    },
+    {
+     "id": "1232",
+     "name": "Ванная комната",
+     "icon": "bath-bubbles"
+    },
+    {
+     "id": "1199",
+     "name": "Фен",
+     "icon": "hairdryer"
+    },
+    {
+     "id": "1177",
+     "name": "Телевизор",
+     "icon": "tv"
+    },
+    {
+     "id": "1110",
+     "name": "Сейф",
+     "icon": "keyhole-square"
+    }
+   ],
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/6c087030-575d-4b7a-9c17-5cdd8b83a88b/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/0de39ccea2ebb6b98c1613da0a2a640f.jpg"
+   ],
+   "bed_summary": "2 отдельные кровати",
+   "bed_type": "twin",
+   "view": null,
+   "room_size_sqm": null,
+   "max_occupancy": null,
+   "room_property_items": [
+    {
+     "id": "room_property",
+     "icon": "bed-double",
+     "text": "2 отдельные кровати"
+    }
+   ],
+   "price_from": {
+    "amount": 17265.0,
+    "currency": "RUB",
+    "price_basis": "stay_total"
+   },
+   "rates": [
+    {
+     "offerpack_hash": "5ecb7200-9ed3-4426-80c8-c23c10334527",
+     "price": {
+      "amount": 17265.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T12:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 12:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "06521961-5f04-4b6e-be04-99694fc0cc5b"
+    },
+    {
+     "offerpack_hash": "3b317dfb-5879-46f0-9177-3d6ff9b75e1f",
+     "price": {
+      "amount": 18223.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T21:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 21:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "ec6f9bdc-9784-403c-bf55-124cafa6e771"
+    }
+   ]
+  },
+  {
+   "room_name": "Двухместный номер Комфорт с видом на город",
+   "room_description": "• Двуспальная кровать\n• Кровать queen size\n",
+   "room_amenities": [
+    {
+     "id": "1489",
+     "name": "Кондиционер",
+     "icon": "snowflake"
+    },
+    {
+     "id": "1232",
+     "name": "Ванная комната",
+     "icon": "bath-bubbles"
+    },
+    {
+     "id": "1640",
+     "name": "Вид на город",
+     "icon": "window"
+    },
+    {
+     "id": "1214",
+     "name": "Чайник",
+     "icon": "kettle"
+    },
+    {
+     "id": "1199",
+     "name": "Фен",
+     "icon": "hairdryer"
+    }
+   ],
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/3cc09802-0134-4d3d-8f2d-2e0251d4d510/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/2538e268a886a9e1715531ce05feb449.jpg"
+   ],
+   "bed_summary": "Двуспальная кровать ・ Кровать queen size",
+   "bed_type": "double",
+   "view": "city",
+   "room_size_sqm": null,
+   "max_occupancy": null,
+   "room_property_items": [
+    {
+     "id": "room_property",
+     "icon": "bed-double",
+     "text": "Двуспальная кровать ・ Кровать queen size"
+    }
+   ],
+   "price_from": {
+    "amount": 23196.0,
+    "currency": "RUB",
+    "price_basis": "stay_total"
+   },
+   "rates": [
+    {
+     "offerpack_hash": "fdc1e0f4-3ef7-4b80-b091-e8277fe24733",
+     "price": {
+      "amount": 23196.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T12:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 12:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "30355d13-bcc9-4848-b461-a68d7bdd40e3"
+    },
+    {
+     "offerpack_hash": "5cdd7c11-ee6d-41f8-95f0-094b7ed8e15e",
+     "price": {
+      "amount": 24371.0,
+      "currency": "RUB"
+     },
+     "price_basis": "stay_total",
+     "meal": {
+      "included": true,
+      "name": "Завтрак включён",
+      "type": "breakfast"
+     },
+     "breakfast_included": true,
+     "refundable": true,
+     "free_cancellation": true,
+     "free_cancellation_until": "2026-11-05T21:00:00Z",
+     "pay_at_hotel": null,
+     "pay_online": true,
+     "highlights": [
+      {
+       "type": "meal",
+       "text": "Завтрак включён"
+      },
+      {
+       "type": "policies",
+       "text": "Бесплатная отмена до 5 ноя 21:00"
+      },
+      {
+       "type": "payment",
+       "text": "Оплата сейчас или 4 ноя"
+      }
+     ],
+     "is_business_trip": false,
+     "id": "0c69ba50-425b-49d9-a721-13f3d0028cb8"
+    }
+   ],
+   "photos_total": 12
+  }
+ ],
+ "filters_available": [
+  {
+   "id": "price",
+   "name": "Цена",
+   "type": "range",
+   "value": {
+    "min": 18173,
+    "max": 25653,
+    "options": [],
+    "default_id": ""
+   }
+  }
+ ]
+}

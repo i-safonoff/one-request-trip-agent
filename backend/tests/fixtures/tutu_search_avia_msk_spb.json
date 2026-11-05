@@ -1,0 +1,167 @@
+{
+ "offers": [
+  {
+   "offer_id": "b5620a4a55241c577275accc884ef1b1",
+   "transport": "avia",
+   "price": {
+    "amount": 6442.0,
+    "currency": "RUB"
+   },
+   "duration_min": 90,
+   "carriers": [
+    "Победа"
+   ],
+   "segments_count": 1,
+   "departure_at": "2026-11-14T07:00:00+03:00",
+   "arrival_at": "2026-11-14T08:30:00+03:00",
+   "legs": [
+    {
+     "label": "outbound",
+     "from": "Москва — Шереметьево (SVO), терм. D",
+     "to": "Санкт-Петербург — Пулково (LED), терм. 1",
+     "departure_at": "2026-11-14T07:00:00+03:00",
+     "arrival_at": "2026-11-14T08:30:00+03:00",
+     "duration_min": 90,
+     "segments": [
+      {
+       "from": "Москва — Шереметьево (SVO), терм. D",
+       "to": "Санкт-Петербург — Пулково (LED), терм. 1",
+       "departure_at": "2026-11-14T07:00:00+03:00",
+       "arrival_at": "2026-11-14T08:30:00+03:00",
+       "duration_min": 90,
+       "carrier": "Победа",
+       "voyage_no": "DP-6825"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "price": {
+      "amount": 6442.0,
+      "currency": "RUB"
+     },
+     "conditions": {
+      "fare_family": "Базовый",
+      "baggage": {
+       "kg": 0,
+       "pieces": 0
+      },
+      "cabin_baggage": {
+       "kg": null,
+       "pieces": 1
+      },
+      "refundable": false,
+      "changeable": false
+     }
+    },
+    {
+     "price": {
+      "amount": 11518.0,
+      "currency": "RUB"
+     },
+     "conditions": {
+      "fare_family": "Выгодный",
+      "baggage": {
+       "kg": 10,
+       "pieces": 1
+      },
+      "refundable": false,
+      "changeable": true
+     }
+    }
+   ]
+  },
+  {
+   "offer_id": "de9a5811f269115d16dd28461d6d7526",
+   "transport": "avia",
+   "price": {
+    "amount": 7826.0,
+    "currency": "RUB"
+   },
+   "duration_min": 105,
+   "carriers": [
+    "S7 Airlines"
+   ],
+   "segments_count": 1,
+   "departure_at": "2026-11-14T17:20:00+03:00",
+   "arrival_at": "2026-11-14T19:05:00+03:00",
+   "legs": [
+    {
+     "label": "outbound",
+     "from": "Москва — Домодедово (DME)",
+     "to": "Санкт-Петербург — Пулково (LED), терм. 1",
+     "departure_at": "2026-11-14T17:20:00+03:00",
+     "arrival_at": "2026-11-14T19:05:00+03:00",
+     "duration_min": 105,
+     "segments": [
+      {
+       "from": "Москва — Домодедово (DME)",
+       "to": "Санкт-Петербург — Пулково (LED), терм. 1",
+       "departure_at": "2026-11-14T17:20:00+03:00",
+       "arrival_at": "2026-11-14T19:05:00+03:00",
+       "duration_min": 105,
+       "carrier": "S7 Airlines",
+       "voyage_no": "S7-1015"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "price": {
+      "amount": 7826.0,
+      "currency": "RUB"
+     },
+     "conditions": {
+      "fare_family": "Эконом Базовый",
+      "baggage": {
+       "kg": 0,
+       "pieces": 0
+      },
+      "cabin_baggage": {
+       "kg": 10,
+       "pieces": 1
+      },
+      "refundable": false,
+      "changeable": true
+     }
+    },
+    {
+     "price": {
+      "amount": 12268.0,
+      "currency": "RUB"
+     },
+     "conditions": {
+      "fare_family": "Эконом Стандарт",
+      "baggage": {
+       "kg": 23,
+       "pieces": 1
+      },
+      "refundable": true,
+      "changeable": true
+     }
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "transport": "avia",
+  "pricing": {
+   "basis": "party_total",
+   "passengers": {
+    "full": 2
+   }
+  },
+  "from": {
+   "name": "Москва",
+   "iata": "MOW"
+  },
+  "to": {
+   "name": "Санкт-Петербург",
+   "iata": "LED"
+  },
+  "total_matched": 43,
+  "has_more": true
+ }
+}

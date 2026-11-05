@@ -1,0 +1,367 @@
+{
+ "hotels": [
+  {
+   "hotel_id": "8601075",
+   "hotel_geo_id": "8601075",
+   "tutu_offer_id": "b1a848cb-edec-4860-8660-6052f5726ca7",
+   "name": "Вало Нетворк",
+   "stars": 3,
+   "rating": 8.3,
+   "review_count": 308,
+   "address": "6.6 км от центра, 268 м от метро Бухарестская",
+   "location": {
+    "lat": 59.886078,
+    "lng": 30.368853,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/5b454c58-3c99-44b9-9d10-85dcf4c93de3/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/2d5824edd260288dde948f8e19a4feeb.jpg"
+   ],
+   "alias": "apartotel_valo_network",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601075&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+   "best_offer": {
+    "offerpack_hash": "59161067-323d-49ca-8b66-6c09cdf4076b",
+    "room_name": "Нетворк Стандарт 3* с большим матрасом на подиуме",
+    "price": {
+     "amount": 7659.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601075&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 8.3,
+    "review_count": 308,
+    "label": "⭐ 8.3/10 · 308 отзывов",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "8601075",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "8601075",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "apartotel_valo_network",
+    "search_id": "21fd1e57b324338268d91fbdf539a38b",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601075&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b"
+   },
+   "photos_total": 23
+  },
+  {
+   "hotel_id": "8601078",
+   "hotel_geo_id": "8601078",
+   "tutu_offer_id": "a6abe9fc-d2fb-4d0c-8f33-8af46f30cb5c",
+   "name": "Mercure Hotel and Residences Saint Petersburg",
+   "stars": 5,
+   "rating": 8.84,
+   "review_count": 491,
+   "address": "6.6 км от центра, 230 м от метро Бухарестская",
+   "location": {
+    "lat": 59.88531,
+    "lng": 30.366976,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/2f948be9-9faf-4b2c-8a61-352167c0b89d/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/001ab71667e5e53f2acd715a8d5689f1.jpg"
+   ],
+   "alias": "apartotel_mercure_hotel_and_residences_saint_petersburg",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601078&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+   "best_offer": {
+    "offerpack_hash": "88008b33-5b81-42fc-a9f0-dce7d1cc2a61",
+    "room_name": "Меркюр Комфорт без кухни 5*",
+    "price": {
+     "amount": 12759.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601078&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 8.84,
+    "review_count": 491,
+    "label": "⭐ 8.84/10 · 491 отзыв",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "8601078",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "8601078",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "apartotel_mercure_hotel_and_residences_saint_petersburg",
+    "search_id": "21fd1e57b324338268d91fbdf539a38b",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=8601078&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b"
+   },
+   "photos_total": 31
+  },
+  {
+   "hotel_id": "13508048",
+   "hotel_geo_id": "13508048",
+   "tutu_offer_id": "0a3329ae-e020-4bdc-9f3e-04cbba0d5df3",
+   "name": "Дворик на Жуковского",
+   "stars": 0,
+   "rating": 0.0,
+   "review_count": 0,
+   "address": "2.4 км от центра, 462 м от метро Маяковская",
+   "location": {
+    "lat": 59.935394,
+    "lng": 30.357426,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/f0e92a52d83cf2778b9f4294bf355122143d9f7b.a8a63429a3ad01572833f6aefdc907533d59d974.jpeg"
+   ],
+   "alias": "dvorik_na_zhukovskogo",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13508048&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+   "best_offer": {
+    "offerpack_hash": "8a57f398-2a95-4c49-9d82-017d02eba7f5",
+    "room_name": "Номер Комфорт Дворик на Жуковского",
+    "price": {
+     "amount": 9320.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13508048&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": null,
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "13508048",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "dvorik_na_zhukovskogo",
+    "search_id": "21fd1e57b324338268d91fbdf539a38b",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13508048&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b"
+   },
+   "photos_total": 18
+  },
+  {
+   "hotel_id": "11836632",
+   "hotel_geo_id": "11836632",
+   "tutu_offer_id": "b963db67-77c0-4532-bfec-0462fdcf80e0",
+   "name": "Отель Санкт-Петербург",
+   "stars": 4,
+   "rating": 8.5,
+   "review_count": 1603,
+   "address": "2.5 км от центра, 760 м от метро Площадь Ленина",
+   "location": {
+    "lat": 59.9569,
+    "lng": 30.34183,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/c3e2cf2b3d804cdc3c4196ed22a170aedfa9bb7f.d6a7cb8320d26591db3e47d2e537bce5ccb9230b.jpeg"
+   ],
+   "alias": "sanktpeterburg",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11836632&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+   "best_offer": {
+    "offerpack_hash": "d81157f1-c552-4a61-9721-16ceedc503ca",
+    "room_name": "Двухместный номер Делюкс с видом на реку",
+    "price": {
+     "amount": 37620.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11836632&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+    "room_size_sqm": null,
+    "breakfast_included": true,
+    "meal_name": "Завтрак \"шведский стол\"",
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "meal",
+      "text": "Завтрак \"шведский стол\""
+     },
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 8.5,
+    "review_count": 1603,
+    "label": "⭐ 8.5/10 · 1 603 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "11836632",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "11836632",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "sanktpeterburg",
+    "search_id": "21fd1e57b324338268d91fbdf539a38b",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=11836632&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b"
+   },
+   "photos_total": 33
+  },
+  {
+   "hotel_id": "13494739",
+   "hotel_geo_id": "13494739",
+   "tutu_offer_id": "eee0b250-3d5e-4469-9fb7-83d840a98350",
+   "name": "Номера на канале Грибоедова",
+   "stars": 0,
+   "rating": 10.0,
+   "review_count": 2,
+   "address": "1.4 км от центра, 309 м от метро Садовая",
+   "location": {
+    "lat": 59.92634,
+    "lng": 30.31225,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/c34af53545159f9013a8a7ae977b4cc4abc5d75b.0b02fe3ec167ff5e2096ee94d2f1e5473eb5e20b.jpeg"
+   ],
+   "alias": "nomera_na_kanale_griboyedova",
+   "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13494739&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+   "best_offer": {
+    "offerpack_hash": "2c419f07-28c4-417c-ae18-c32ea51e4b2d",
+    "room_name": "Улучшенный номер с 1 или 2 кроватями",
+    "price": {
+     "amount": 7581.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "checkout_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13494739&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b",
+    "room_size_sqm": null,
+    "breakfast_included": null,
+    "meal_name": null,
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "review_summary": {
+    "rating": 10.0,
+    "review_count": 2,
+    "label": "⭐ 10/10 · 2 отзыва",
+    "source": "offers-hotel-api",
+    "scope": "hotel",
+    "subject": "13494739",
+    "scale": 10
+   },
+   "checkout_ref": {
+    "transport": "hotels",
+    "hotel_geo_id": "13494739",
+    "check_in": "2026-11-27",
+    "check_out": "2026-11-30",
+    "adults": 2,
+    "hotel_alias": "nomera_na_kanale_griboyedova",
+    "search_id": "21fd1e57b324338268d91fbdf539a38b",
+    "fallback_url": "https://hotel.tutu.ru/offers/details?business=0&check_in=2026-11-27&check_out=2026-11-30&geo_id=13494739&geo_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&room%5B0%5D=2&search_id=21fd1e57b324338268d91fbdf539a38b"
+   },
+   "photos_total": 27
+  }
+ ],
+ "stay": {
+  "check_in": "2026-11-27",
+  "check_out": "2026-11-30",
+  "nights": 3
+ },
+ "meta": {
+  "checkout_hint": "When the user picks a hotel — in any wording («беру», «первый», «оформи», «забронируй») — call `create_checkout_link` with that hotel's `checkout_ref` and put the returned link in your reply. `best_offer.checkout_url` is the plain-page fallback, not the deeplink.",
+  "search_id": "21fd1e57b324338268d91fbdf539a38b",
+  "page": 1,
+  "page_size": 5,
+  "total_returned": 5,
+  "has_more": true,
+  "geo_id": "2656915",
+  "resolved_geo": {
+   "geo_id": "2656915",
+   "name": "Санкт-Петербург",
+   "country": "Россия",
+   "region": "Санкт-Петербург",
+   "geo_type": "locality",
+   "hotels_count": 47276
+  },
+  "filters_applied": {
+   "option_filters": [],
+   "range_filters": [],
+   "button_filters": [],
+   "quick_filters_order": [],
+   "changes": []
+  },
+  "post_filter_dropped_over_cap": 0,
+  "post_filter_dropped_no_free_cancellation": 0,
+  "post_filter_dropped_no_breakfast": 0
+ }
+}

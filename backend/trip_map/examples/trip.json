@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "trip_id": "trip_02",
+  "revision": 7,
+  "status": "quoted",
+  "title": "Токио и Осака, 8 ночей",
+  "party": { "adults": 2, "children_ages": [] },
+  "budget": { "scope": "trip", "currency": "RUB", "max_total": 450000 },
+  "pending_questions": ["Нужен ли JR Pass на переезд Токио — Осака?"],
+  "places": {
+    "origin": { "name": "Москва", "lat": 55.7558, "lon": 37.6173 },
+    "tokyo": { "name": "Токио", "lat": 35.6762, "lon": 139.6503 },
+    "narita": { "name": "Аэропорт Нарита", "lat": 35.772, "lon": 140.3929, "parent": "tokyo" },
+    "osaka": { "name": "Осака", "lat": 34.6937, "lon": 135.5023 }
+  },
+  "nodes": {
+    "outbound": { "type": "transport", "mode": "flight", "from": "origin", "to": "narita", "departure_date": "2026-11-12", "selected_offer_ref": "flight_out" },
+    "transfer_tokyo": { "type": "transport", "mode": "drive", "from": "narita", "to": "tokyo", "departure_date": "2026-11-13", "selected_offer_ref": "narita_express" },
+    "stay_tokyo": { "type": "stay", "place": "tokyo", "check_in": "2026-11-13", "check_out": "2026-11-17", "selected_offer_ref": "hotel_tokyo" },
+    "tokyo_osaka": { "type": "transport", "mode": "rail", "from": "tokyo", "to": "osaka", "departure_date": "2026-11-17", "selected_offer_ref": "shinkansen" },
+    "stay_osaka": { "type": "stay", "place": "osaka", "check_in": "2026-11-17", "check_out": "2026-11-21", "selected_offer_ref": "hotel_osaka" },
+    "return": { "type": "transport", "mode": "flight", "from": "osaka", "to": "origin", "departure_date": "2026-11-21", "selected_offer_ref": null }
+  },
+  "sequence": ["outbound", "transfer_tokyo", "stay_tokyo", "tokyo_osaka", "stay_osaka", "return"],
+  "pricing": { "total": 318400, "status": "partially_quoted" },
+  "offers": {
+    "flight_out": { "title": "Аэрофлот SU262", "price": 74000, "currency": "RUB", "details": "Москва → Нарита, 1 пересадок нет" },
+    "narita_express": { "title": "Narita Express", "price": 6000, "currency": "RUB", "details": "Нарита → Токио, 60 мин" },
+    "hotel_tokyo": {
+      "name": "Shinjuku Granbell Hotel",
+      "lat": 35.6955, "lon": 139.7043,
+      "address": "2-14-5 Kabukicho, Shinjuku, Tokyo",
+      "stars": 4, "rating": 8.7, "reviews_count": 5210,
+      "price_per_night": 14500, "price_total": 58000, "currency": "RUB",
+      "amenities": ["Wi-Fi", "Кондиционер", "Рядом метро"],
+      "photos": ["https://picsum.photos/seed/tokyo1/800/500", "https://picsum.photos/seed/tokyo2/800/500"],
+      "url": "https://example.com/hotel/tokyo"
+    },
+    "shinkansen": { "title": "Shinkansen Nozomi", "price": 22000, "currency": "RUB", "details": "Токио → Осака, 2 ч 30 мин" },
+    "hotel_osaka": {
+      "name": "Cross Hotel Osaka",
+      "lat": 34.6685, "lon": 135.5013,
+      "address": "2-5-15 Shinsaibashisuji, Chuo-ku, Osaka",
+      "stars": 4, "rating": 9.0, "reviews_count": 3890,
+      "price_per_night": 12600, "price_total": 50400, "currency": "RUB",
+      "amenities": ["Wi-Fi", "Завтрак", "Рядом метро"],
+      "photos": ["https://picsum.photos/seed/osaka1/800/500"],
+      "url": "https://example.com/hotel/osaka"
+    }
+  }
+}

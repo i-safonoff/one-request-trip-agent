@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "trip_id": "demo_moscow_spb",
+  "revision": 1,
+  "status": "quoted",
+  "title": "Москва и Санкт-Петербург, 6 ночей",
+  "party": { "adults": 2, "children_ages": [] },
+  "budget": { "scope": "trip", "currency": "RUB", "max_total": 90000 },
+  "pending_questions": [],
+  "places": {
+    "moscow": { "name": "Москва", "lat": 55.7558, "lon": 37.6173 },
+    "spb": { "name": "Санкт-Петербург", "lat": 59.9343, "lon": 30.3351 }
+  },
+  "nodes": {
+    "stay_moscow": { "type": "stay", "place": "moscow", "check_in": "2026-11-06", "check_out": "2026-11-09", "selected_offer_ref": "hotel_msk" },
+    "moscow_spb": { "type": "transport", "from": "moscow", "to": "spb", "mode": "rail", "departure_date": "2026-11-09", "selected_offer_ref": "sapsan" },
+    "stay_spb": { "type": "stay", "place": "spb", "check_in": "2026-11-09", "check_out": "2026-11-12", "selected_offer_ref": "hotel_spb" }
+  },
+  "sequence": ["stay_moscow", "moscow_spb", "stay_spb"],
+  "pricing": { "total": 74500, "status": "quoted" },
+  "offers": {
+    "hotel_msk": {
+      "name": "Radisson Collection Hotel, Moscow",
+      "lat": 55.7519, "lon": 37.5645,
+      "address": "Кутузовский пр-т, 2/1, Москва",
+      "stars": 5, "rating": 9.0, "reviews_count": 4120,
+      "price_per_night": 7200, "price_total": 21600, "currency": "RUB",
+      "amenities": ["Wi-Fi", "Завтрак", "Бесплатная отмена"],
+      "photos": ["https://picsum.photos/seed/msk1a/800/500", "https://picsum.photos/seed/msk1b/800/500"],
+      "url": "https://example.com/hotel/msk"
+    },
+    "sapsan": { "title": "Сапсан", "price": 9800, "currency": "RUB", "details": "Москва → Санкт-Петербург, около 4 ч" },
+    "hotel_spb": {
+      "name": "Hotel Astoria",
+      "lat": 59.9338, "lon": 30.3089,
+      "address": "Большая Морская ул., 39, Санкт-Петербург",
+      "stars": 5, "rating": 9.3, "reviews_count": 6234,
+      "price_per_night": 14370, "price_total": 43100, "currency": "RUB",
+      "amenities": ["Wi-Fi", "Завтрак", "Спа"],
+      "photos": ["https://picsum.photos/seed/spb1a/800/500", "https://picsum.photos/seed/spb1b/800/500", "https://picsum.photos/seed/spb1c/800/500"],
+      "url": "https://example.com/hotel/spb"
+    }
+  }
+}

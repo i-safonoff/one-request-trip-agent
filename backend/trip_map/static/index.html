@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>План поездки</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <aside id="sidebar">
+    <header>
+      <h1 id="title">Загрузка…</h1>
+      <p id="summary"></p>
+      <p id="budget"></p>
+      <ul id="questions" class="hidden"></ul>
+      <nav id="tabs"></nav>
+      <p id="map-note" class="hidden"></p>
+    </header>
+    <ol id="stays"></ol>
+    <button id="reload" type="button">Обновить план</button>
+  </aside>
+  <div id="map"></div>
+
+  <div id="modal" class="hidden" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button id="modal-close" type="button" aria-label="Закрыть">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="map-adapters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

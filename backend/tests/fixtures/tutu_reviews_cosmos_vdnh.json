@@ -1,0 +1,240 @@
+{
+ "hotel": {
+  "hotel_id": "11322466",
+  "name": "Cosmos Москва ВДНХ",
+  "stars": 3,
+  "rating": 7.16,
+  "review_count": 1846,
+  "review_summary": {
+   "rating": 7.16,
+   "scale": 10,
+   "review_count": 1846,
+   "text": "Хорошо",
+   "aspects": [
+    {
+     "rating": 6.79,
+     "scale": 10,
+     "text": "Цена/Качество",
+     "scope": "hotel_aspect",
+     "label": "⭐ 6.79/10 · Цена/Качество"
+    },
+    {
+     "rating": 6.87,
+     "scale": 10,
+     "text": "Чистота",
+     "scope": "hotel_aspect",
+     "label": "⭐ 6.87/10 · Чистота"
+    },
+    {
+     "rating": 9.09,
+     "scale": 10,
+     "text": "Расположение",
+     "scope": "hotel_aspect",
+     "label": "⭐ 9.09/10 · Расположение"
+    },
+    {
+     "rating": 5.64,
+     "scale": 10,
+     "text": "Комфорт",
+     "scope": "hotel_aspect",
+     "label": "⭐ 5.64/10 · Комфорт"
+    },
+    {
+     "rating": 7.38,
+     "scale": 10,
+     "text": "Питание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 7.38/10 · Питание"
+    },
+    {
+     "rating": 6.78,
+     "scale": 10,
+     "text": "Обслуживание",
+     "scope": "hotel_aspect",
+     "label": "⭐ 6.78/10 · Обслуживание"
+    }
+   ]
+  },
+  "reviews": {
+   "reviews": [
+    {
+     "review_id": "b1",
+     "rating": 1.0,
+     "created_at": "2026-10-15T15:01:51Z",
+     "author": "ИРИНА",
+     "source": {
+      "id": "tutu",
+      "name": "Туту"
+     },
+     "trip": {
+      "kind": {
+       "id": "business",
+       "text": "Командировка"
+      },
+      "lineup": [
+       {
+        "id": "couple",
+        "text": "С близким человеком"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "cons",
+       "text": "понравился только вид из окна. \nвсё остальное ужасно "
+      }
+     ]
+    },
+    {
+     "review_id": "b2",
+     "rating": 1.0,
+     "created_at": "2026-07-30T00:00:00Z",
+     "author": "Dmitrij",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "couple",
+        "text": "С близким человеком"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "-"
+      },
+      {
+       "sentiment": "cons",
+       "text": "Если хотите провести пару часов на регистрации, вам сюда."
+      }
+     ]
+    },
+    {
+     "review_id": "b3",
+     "rating": 1.7,
+     "created_at": "2026-06-15T00:00:00Z",
+     "author": "Vladlena",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "business",
+       "text": "Командировка"
+      }
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "Расположение"
+      },
+      {
+       "sentiment": "cons",
+       "text": "Номер Полулюкс абсолютно не соответствует. Грязные и старые полотенца. В ванне один раз увидела таракана. Уборки не было пока не попросишь. Мебель очень старая, обои отклеиваются от стены. Кондиционера нет. Жуткая жара. Была по работе с ребенком, за 4 ночи ни разу не выспалась от жары."
+      }
+     ]
+    },
+    {
+     "review_id": "b4",
+     "rating": 1.0,
+     "created_at": "2026-08-29T00:00:00Z",
+     "author": "YA-SIANG",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "single",
+        "text": "Только я"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "-"
+      },
+      {
+       "sentiment": "cons",
+       "text": "В номере было ужасно душно и жарко, кондиционера не было. Освещение было тусклым, а комната грязной; казалось, ее не убирали как следует. Персонал на ресепшене был грубым и медлительным. Wi-Fi в отеле часто был недоступен, и сеть работала нестабильно."
+      }
+     ]
+    },
+    {
+     "review_id": "b5",
+     "rating": 1.7,
+     "created_at": "2023-03-16T00:00:00Z",
+     "author": "Dmitrij",
+     "source": {
+      "id": "ostrovok",
+      "name": "Ostrovok"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      }
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "кофе на первом этаже в кофейне «бодрый день»"
+      },
+      {
+       "sentiment": "cons",
+       "text": "неконтролируемые гул детей на этажах, не было ни одного выхода, где бы я не встретил бегающих из номера в номер детей. не все лифты работают. поскольку гостиница находится на отшибе развилки, хоть на картах выглядит очень близко, на машине до метро ехать 20 минут."
+      }
+     ]
+    },
+    {
+     "review_id": "b6",
+     "rating": 1.0,
+     "created_at": "2026-06-23T19:51:57Z",
+     "author": "Андрей",
+     "source": {
+      "id": "tutu",
+      "name": "Туту"
+     },
+     "trip": {
+      "kind": {
+       "id": "vacation",
+       "text": "Отдых"
+      },
+      "lineup": [
+       {
+        "id": "couple",
+        "text": "С близким человеком"
+       }
+      ]
+     },
+     "texts": [
+      {
+       "sentiment": "pros",
+       "text": "вид из окна"
+      },
+      {
+       "sentiment": "cons",
+       "text": "Ужасный номер, грязь, вонь, телефоны в номерах не работают, приходится постоянно бегать на ресепшен, КАКИЕ 3 ЗВЕЗДЫ???"
+      }
+     ]
+    }
+   ],
+   "total_reviews": 1846
+  }
+ }
+}

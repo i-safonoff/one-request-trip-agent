@@ -1,0 +1,122 @@
+name: ekvivalentno
+
+# `docker compose up --build` -> http://localhost:8080
+# Optional Telegram Mini App tunnel: docker compose --profile telegram up --build
+
+x-backend: &backend
+  build:
+    context: .
+    dockerfile: Dockerfile
+  platform: ${DOCKER_PLATFORM:-linux/amd64}
+  restart: unless-stopped
+  env_file:
+    - path: .env          # optional: everything has a default, only GIGACHAT_AUTH_KEY must be provided
+      required: false
+  environment:
+    DATABASE_URL: postgresql+asyncpg://app:app@db:5432/app
+    AUTO_CREATE_TABLES: "false"        # production path: Alembic migrations run at app start
+    SESSION_SECRET: ${SESSION_SECRET:-dev-only-change-me}
+    DEV_AGENT: "false"                 # the stub agent must not compete with the real worker
+    PUBLIC_URL_FILE: /shared/public_url   # written by the `tunnel` service (profile telegram); absent file = PUBLIC_BASE_URL
+
+services:
+  db:
+    image: postgres:16.15-alpine
+    platform: ${DOCKER_PLATFORM:-linux/amd64}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d app"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+
+  app:
+    <<: *backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - tunnel_data:/shared:ro
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3).status == 200 else 1)"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+
+  worker:
+    <<: *backend
+    command: ["python", "-m", "agents.runtime.worker"]
+    depends_on:
+      db:
+        condition: service_healthy
+      app:
+        condition: service_healthy
+    volumes:
+      - trip_map_data:/data/trip_map
+      - tunnel_data:/shared:ro
+
+  # Public HTTPS address for the Telegram Mini App: an SSH tunnel to localhost.run (no account, port 22: it passes where
+  # cloudflared's port 7844 is blocked). The address changes whenever the tunnel reconnects, so the container writes it
+  # into the shared volume and the app follows it (menu button of the bot, links). Start: docker compose --profile telegram up -d
+  tunnel:
+    profiles: ["telegram"]
+    image: alpine:3.20
+    restart: unless-stopped
+    volumes:
+      - tunnel_data:/shared
+      - ./.tunnel:/keys:ro   # optional: id_ed25519 of a localhost.run account gives a longer-lived address
+    depends_on:
+      app:
+        condition: service_healthy
+    entrypoint: ["sh", "-c"]
+    command:
+      - |
+        apk add --no-cache openssh-client >/dev/null 2>&1
+        rm -f /shared/public_url
+        HAVE_KEY=0
+        if [ -f /keys/id_ed25519 ]; then cp /keys/id_ed25519 /tmp/key && chmod 600 /tmp/key && HAVE_KEY=1; fi
+        MODE=key; [ "$$HAVE_KEY" = 1 ] || MODE=anon
+        while true; do
+          if [ "$$MODE" = key ]; then ARGS="-i /tmp/key -o IdentitiesOnly=yes localhost.run"; else ARGS="nokey@localhost.run"; fi
+          rm -f /tmp/ok
+          ssh -T -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ServerAliveInterval=15 -o ServerAliveCountMax=3 \
+              -o ExitOnForwardFailure=yes -R 80:app:8080 $$ARGS 2>&1 | while read -r line; do
+            echo "$$line"
+            url=$$(echo "$$line" | grep -oE 'https://[a-z0-9.-]+\.(lhr\.life|localhost\.run)' | grep -v admin | grep -v '^https://localhost\.run$$' | head -n 1)
+            [ -n "$$url" ] && { echo "$$url" > /shared/public_url; touch /tmp/ok; }
+          done
+          # the key was refused (not registered yet): fall back to an anonymous tunnel, so the Mini App never stays down;
+          # after an anonymous run ends the key is tried again
+          if [ ! -f /tmp/ok ] && [ "$$MODE" = key ]; then MODE=anon; else [ "$$HAVE_KEY" = 1 ] && MODE=key; fi
+          rm -f /shared/public_url
+          echo "tunnel closed, reconnecting in 5 s"
+          sleep 5
+        done
+
+  # Alternative to `tunnel` with a PERMANENT address: an ngrok account gives one free static domain.
+  # In .env: NGROK_AUTHTOKEN=<token>, NGROK_DOMAIN=<name>.ngrok-free.dev, PUBLIC_BASE_URL=https://<same name>
+  # Start: docker compose --profile ngrok up -d   (stop the SSH tunnel first: docker compose --profile telegram stop tunnel)
+  ngrok:
+    profiles: ["ngrok"]
+    image: ngrok/ngrok:3.39.13-alpine
+    restart: unless-stopped
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN:-}
+    command: ["http", "--url=${NGROK_DOMAIN:-}", "app:8080"]
+    depends_on:
+      app:
+        condition: service_healthy
+
+volumes:
+  pgdata:
+  trip_map_data:
+  tunnel_data:

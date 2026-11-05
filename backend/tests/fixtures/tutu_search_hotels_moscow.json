@@ -1,0 +1,258 @@
+{
+ "hotels": [
+  {
+   "hotel_id": "11322466",
+   "hotel_geo_id": "11322466",
+   "name": "Cosmos Москва ВДНХ ",
+   "stars": 3,
+   "rating": 7.16,
+   "review_count": 1846,
+   "address": "7.6 км от центра, 384 м от метро ВДНХ",
+   "location": {
+    "lat": 55.82242,
+    "lng": 37.646667,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn4.tu-tu.ru/static/hotels-photo/hotels-photo/7ed32ea04861fa0685606b3b8f66544c2e343fa5.6aeeb512b8b3b9d07a12e116a0453212ec91ec70.jpeg"
+   ],
+   "alias": "kosmos_vdnkh_otel_moskva",
+   "best_offer": {
+    "offerpack_hash": "76d80438-a806-46f1-96e5-73b02e1de1a4",
+    "room_name": "Номер стандарт с 2 односпальными кроватями",
+    "price": {
+     "amount": 16796.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "room_size_sqm": null,
+    "breakfast_included": true,
+    "meal_name": "Завтрак \"шведский стол\"",
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "meal",
+      "text": "Завтрак \"шведский стол\""
+     },
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "photos_total": 20
+  },
+  {
+   "hotel_id": "7644181",
+   "hotel_geo_id": "7644181",
+   "name": "Гамма Измайлово",
+   "stars": 3,
+   "rating": 8.37,
+   "review_count": 4063,
+   "address": "9.1 км от центра, 351 м от метро Партизанская",
+   "location": {
+    "lat": 55.79144,
+    "lng": 37.747944,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/85631429-d850-402a-b0eb-c477f4f79384/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/b9fd34cfb0e4b14267ddf999339213d0.jpg"
+   ],
+   "alias": "otel_izmaylovo_gamma",
+   "best_offer": {
+    "offerpack_hash": "041ba231-b29c-49a8-80ff-d7c9c1a13445",
+    "room_name": "Номер стандарт плюс с 1 двуспальной кроватью",
+    "price": {
+     "amount": 19295.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "room_size_sqm": null,
+    "breakfast_included": true,
+    "meal_name": "Завтрак \"шведский стол\"",
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "meal",
+      "text": "Завтрак \"шведский стол\""
+     },
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "photos_total": 19
+  },
+  {
+   "hotel_id": "11443689",
+   "hotel_geo_id": "11443689",
+   "name": "Rosso Riva Hotel",
+   "stars": 4,
+   "rating": 8.9,
+   "review_count": 132,
+   "address": "3.3 км от центра, 558 м от метро Павелецкая",
+   "location": {
+    "lat": 55.731213,
+    "lng": 37.646885,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn2.tu-tu.ru/imghub/view/ff1697e8-2693-48e8-9a85-8dcf2baa0b07/resize_500_500/4271b6c12b3a41b87b17f2bfcd92ed9a/a290b4c2f60761a72b6304c69f576589.jpg"
+   ],
+   "alias": "rosso_riva",
+   "best_offer": {
+    "offerpack_hash": "3c473b9b-c0df-4e9c-8469-9b134e31f121",
+    "room_name": "STANDARD / СТАНДАРТ В КОРПУСЕ БЕЗ ЛИФТА",
+    "price": {
+     "amount": 19665.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "room_size_sqm": null,
+    "breakfast_included": true,
+    "meal_name": "Завтрак \"шведский стол\"",
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "meal",
+      "text": "Завтрак \"шведский стол\""
+     },
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "photos_total": 30
+  },
+  {
+   "hotel_id": "11434622",
+   "hotel_geo_id": "11434622",
+   "name": "Измайлово Бета",
+   "stars": 3,
+   "rating": 8.39,
+   "review_count": 2495,
+   "address": "9 км от центра, 177 м от метро Партизанская",
+   "location": {
+    "lat": 55.78952,
+    "lng": 37.747654,
+    "city": null,
+    "city_geo_id": null
+   },
+   "photos": [
+    "https://cdn.ostrovok.ru/t/x500/extranet/42/d3/42d3fcdf0137395316e39cdc2a9df36fb7666db5.JPEG"
+   ],
+   "alias": "izmaylovo_beta",
+   "best_offer": {
+    "offerpack_hash": "470e6520-657d-41b7-b63d-1394914144a0",
+    "room_name": "Двухместный номер Стандарт Плюс",
+    "price": {
+     "amount": 19059.0,
+     "currency": "RUB"
+    },
+    "price_basis": "stay_total",
+    "room_size_sqm": null,
+    "breakfast_included": true,
+    "meal_name": "Завтрак включён",
+    "free_cancellation": true,
+    "pay_at_hotel": null,
+    "pay_online": null,
+    "highlights": [
+     {
+      "type": "meal",
+      "text": "Завтрак включён"
+     },
+     {
+      "type": "policies",
+      "text": "Бесплатная отмена"
+     },
+     {
+      "type": "payment",
+      "text": "Оплата позже"
+     }
+    ]
+   },
+   "photos_total": 44
+  }
+ ],
+ "stay": {
+  "check_in": "2026-11-06",
+  "check_out": "2026-11-09",
+  "nights": 3
+ },
+ "meta": {
+  "page": 1,
+  "page_size": 8,
+  "total_returned": 8,
+  "has_more": true,
+  "geo_id": "2657260",
+  "resolved_geo": {
+   "geo_id": "2657260",
+   "name": "Москва",
+   "country": "Россия",
+   "region": "Москва",
+   "geo_type": "locality",
+   "hotels_count": 46339,
+   "also_geo": [
+    {
+     "geo_id": "6619918",
+     "name": "Новая Москва",
+     "geo_type": "region",
+     "hotels_count": 3554
+    }
+   ]
+  },
+  "filters_applied": {
+   "option_filters": [
+    {
+     "id": "meal",
+     "selected_items": [
+      "breakfast"
+     ]
+    }
+   ],
+   "range_filters": [
+    {
+     "id": "price",
+     "min_value": 0,
+     "max_value": 10000
+    }
+   ],
+   "button_filters": [
+    {
+     "id": "refund_conditions",
+     "selected_items": [
+      "free_cancellation"
+     ]
+    }
+   ],
+   "quick_filters_order": [],
+   "changes": []
+  },
+  "post_filter_dropped_over_cap": 0,
+  "post_filter_dropped_no_free_cancellation": 0,
+  "post_filter_dropped_no_breakfast": 0
+ }
+}
