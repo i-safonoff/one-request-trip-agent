@@ -235,11 +235,12 @@ make seed USER_ID=<user uuid>        # the id is in the users table or in the PO
 
 The requests are in Russian, the product's language; the translation is in brackets.
 
-1. «Найди отели в Москве на 6-9 ноября для двух взрослых, завтрак и бесплатная отмена, до 30 000 за всё проживание» (hotels in Moscow for two adults, breakfast and free cancellation, up to 30,000 for the whole stay) — no questions, with "why" and "what was traded off".
-2. «Хочу в Питер на выходные» (Saint Petersburg for the weekend) → one question (from where, how many of you) → legs, transfers, a hotel.
-3. «К тёплому морю в ноябре, недорого, с ребёнком, без долгих перелётов» (a warm sea in November, cheap, with a child, no long flights) → three destinations with climate, travel time and price → a choice → a plan.
-4. Re-planning: «сделай дешевле» (cheaper), «на два дня позже» (two days later), «с нами едет собака» (the dog is coming), «нас будет четверо» (there will be four of us), «оставь этот отель» (keep this hotel).
-5. «Оформить» (Checkout) → price re-check → the form → simulated payment → order `EKV-…`.
+1. «Найди отели в Токио и Осаке на 10–16 декабря для двух взрослых, завтрак и бесплатная отмена, рейтинг от 8.5» (hotels in Tokyo and Osaka for two adults, breakfast and free cancellation, rating 8.5+) — no questions, with "why" and "what was traded off".
+2. «Хочу на Кипр на выходные» (Cyprus for the weekend) → one batch of questions (from where, how many of you; "hotel only" is one of the options) → a plan.
+3. «Из Токио в Осаку и обратно, 13–16 декабря, двое взрослых. Отель с завтраком и бесплатной отменой, рейтинг от 8.5, ближе к центру.» (from Tokyo to Osaka and back, two adults, a hotel with breakfast and free cancellation) — flights both ways, airport transfers and a hotel; the trip in the screenshots above.
+4. «К тёплому морю в ноябре, недорого, с ребёнком, без долгих перелётов» (a warm sea in November, cheap, with a child, no long flights) → three destinations with climate, travel time and price → a choice → a plan.
+5. Re-planning: «сделай дешевле» (cheaper), «на два дня позже» (two days later), «с нами едет собака» (the dog is coming), «нас будет четверо» (there will be four of us), «оставь этот отель» (keep this hotel).
+6. «Оформить» (Checkout) → price re-check → the form → simulated payment → order `EKV-…`.
 
 ### Telegram (optional)
 
