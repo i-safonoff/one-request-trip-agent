@@ -289,7 +289,7 @@ button.round svg { width: 20px; height: 20px; }
 .blend-goo { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none;
               --m1: var(--card-2); --m2: var(--card-2); --m3: var(--card-2); transition: --m1 .6s ease-out, --m2 .6s ease-out, --m3 .6s ease-out; }
 .blend-goo .m1 { stop-color: var(--m1); } .blend-goo .m2 { stop-color: var(--m2); } .blend-goo .m3 { stop-color: var(--m3); }
-#blend-core { transform-box: fill-box; transform-origin: center; transition: transform .8s cubic-bezier(.3,1.45,.5,1); }
+#blend-core { transition: r .8s cubic-bezier(.3,1.45,.5,1); }
 .blend-bowl.empty #blend-core { opacity: .5; }
 .blend-goo .drop { transform-box: fill-box; transform-origin: center; }
 [data-theme="dark"] .core-text { color: #f4f4f7; }

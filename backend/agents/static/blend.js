@@ -178,7 +178,7 @@ let drag = null;
 const POUR_MS = 760;
 const APPROACH_MS = 520;
 const TOUCH_AT = .82; // share of the approach after which the goo necks of the two drops have met
-const CORE_BASE = 84; // px, the empty concept; each trip adds 20, capped at 164 (the drop is scaled, see renderCore)
+const CORE_BASE = 84; // px, the empty concept; each trip adds 20, capped at 164 (it grows through its radius, see renderCore)
 const SVGNS = "http://www.w3.org/2000/svg";
 const svgEl = (tag, attrs = {}) => { const n = document.createElementNS(SVGNS, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); return n; };
 const gooRect = () => $("blend-goo").getBoundingClientRect();
@@ -227,17 +227,21 @@ let massDir = { x: .7, y: -.7 }, massAnim = 0;
 function renderCore(n, colours) {
   const svg = $("blend-goo"), w = svg.clientWidth, h = svg.clientHeight, core = $("blend-core");
   const cx = w / 2, cy = h * .44, size = Math.min(CORE_BASE + n * 20, 164);
-  core.setAttribute("cx", cx); core.setAttribute("cy", cy); core.setAttribute("r", CORE_BASE / 2);
-  core.style.transform = `scale(${size / CORE_BASE})`;
+  // it grows through its radius (a CSS transition on r), not a transform: a scaled circle stretches the shared
+  // gradient, and a drop arriving at its rim would show a different colour from the circle it touches
+  core.setAttribute("cx", cx); core.setAttribute("cy", cy); core.style.r = `${size / 2}px`;
   // Colours are mixed, not placed side by side: a new trip tints the whole mass (strongest on the side it came from)
   // instead of sitting in it as a pure-coloured patch that reads as a separate circle.
   const rest = "var(--card-2)", mix = (a, b, p) => `color-mix(in oklch, ${a} ${p}%, ${b})`;
   const firsts = colours.filter((_, i) => i % 2 === 0), seconds = colours.filter((_, i) => i % 2 === 1);
   const blendAll = (list) => list.reduce((acc, c, i) => (acc ? mix(c, acc, Math.round(100 / (i + 1))) : c), null);
+  // Each stop keeps one trip's hue, softened towards the mix: averaging every stop into one colour made three trips
+  // (pink, blue, orange) collapse into a flat pink with no trace of the middle one.
   const all = blendAll(firsts), newest = firsts[firsts.length - 1];
-  svg.style.setProperty("--m1", n ? (n > 1 ? mix(firsts[0], all, 55) : firsts[0]) : rest);
-  svg.style.setProperty("--m3", n ? (n > 1 ? mix(blendAll(seconds), all, 50) : seconds[0]) : rest);
-  svg.style.setProperty("--m2", n ? (n > 1 ? mix(newest, all, 60) : seconds[0]) : rest);
+  const middle = n > 2 ? blendAll(firsts.slice(1, -1)) : all;
+  svg.style.setProperty("--m1", n ? (n > 1 ? mix(firsts[0], all, 72) : firsts[0]) : rest);
+  svg.style.setProperty("--m3", n ? (n > 1 ? mix(middle, all, 62) : blendAll(seconds)) : rest);
+  svg.style.setProperty("--m2", n ? (n > 1 ? mix(newest, all, 72) : seconds[0]) : rest);
   aimMass(cx, cy, size / 2);
 }
 function aimMass(cx, cy, R) { // glide the gradient's axis to the latest contact direction
@@ -256,24 +260,43 @@ function aimMass(cx, cy, R) { // glide the gradient's axis to the latest contact
 
 // Flat, 2D merge: the drop glides in the plane to the rim of the big one on its own side (no tilt, no squash, no
 // shrinking in flight), touches it, and melts in through the rim while the big drop grows.
-function along(d, coreRect) { // measured once, before any transform: offsets put the drop's centre at `dist` from the big one
+function along(d, coreRect) { // measured once: positions put the drop's centre at `dist` from the big one
   const r = d.getBoundingClientRect(), from = centerOf(r), c = centerOf(coreRect);
   let ux = from.x - c.x, uy = from.y - c.y;
   const len = Math.hypot(ux, uy) || 1;
   ux /= len; uy /= len;
-  return { R: coreRect.width / 2, rr: r.width / 2, ux, uy, at: (dist) => `translate(${c.x + ux * dist - from.x}px, ${c.y + uy * dist - from.y}px)` };
+  return { R: coreRect.width / 2, rr: r.width / 2, ux, uy, off: (dist) => ({ x: c.x + ux * dist - from.x, y: c.y + uy * dist - from.y }) };
 }
-function approach(d, { R, rr, at }) {
-  return d.animate([{ transform: "translate(0, 0)" }, { transform: at(R + rr + 4) }],
-    { duration: APPROACH_MS, easing: "cubic-bezier(.4,0,.2,1)", fill: "forwards" }).finished;
+// The drop moves through its own cx/cy/r, never through a transform: #mass is in user space, and a transformed drop
+// would sample the gradient somewhere else, showing up as a patch of another colour on the concept.
+function bezier(x1, y1, x2, y2) {
+  const f = (t, a, b) => 3 * a * t * (1 - t) ** 2 + 3 * b * t * t * (1 - t) + t ** 3;
+  return (x) => { let lo = 0, hi = 1; for (let i = 0; i < 24; i++) { const m = (lo + hi) / 2; if (f(m, x1, x2) < x) lo = m; else hi = m; } return f((lo + hi) / 2, y1, y2); };
 }
-function meltIn(d, { R, rr, at }) {
-  return d.animate([
-    { transform: `${at(R + rr + 4)} scale(1)` },
-    { transform: `${at(R + rr * .45)} scale(.9)`, offset: .35 },
-    { transform: `${at(R - rr * .1)} scale(.62)`, offset: .7 },
-    { transform: `${at(R - rr * .7)} scale(.2)` }],
-    { duration: 700, easing: "cubic-bezier(.3,0,.3,1)", fill: "forwards" }).finished;
+function tweenDrop(d, keys, ms, ease) { // keys: [{ at, x, y, s, o }], x/y offsets in px, s scale of the radius, o opacity
+  const circles = [...d.children], base = circles.map((c) => [+c.getAttribute("cx"), +c.getAttribute("cy"), +c.getAttribute("r")]);
+  const t0 = performance.now();
+  return new Promise((done) => {
+    const step = (now) => {
+      const t = Math.min(1, (now - t0) / ms), e = ease(t);
+      let i = 1; while (i < keys.length - 1 && keys[i].at < e) i++;
+      const a = keys[i - 1], b = keys[i], k = b.at > a.at ? Math.min(1, Math.max(0, (e - a.at) / (b.at - a.at))) : 1;
+      const v = (p) => a[p] + (b[p] - a[p]) * k;
+      circles.forEach((c, j) => { c.setAttribute("cx", base[j][0] + v("x")); c.setAttribute("cy", base[j][1] + v("y")); c.setAttribute("r", base[j][2] * v("s")); });
+      d.style.opacity = v("o");
+      if (t < 1) requestAnimationFrame(step); else done();
+    };
+    requestAnimationFrame(step);
+  });
+}
+const key = (at, p, s, o) => ({ at, x: p.x, y: p.y, s, o });
+function approach(d, { R, rr, off }) {
+  return tweenDrop(d, [key(0, { x: 0, y: 0 }, 1, 1), key(1, off(R + rr + 4), 1, 1)], APPROACH_MS, bezier(.4, 0, .2, 1));
+}
+function meltIn(d, path) { // it fades rather than shrinking to a dot, and leaves no patch behind
+  const { R, rr, off } = path, start = off(R + rr + 4), toBase = (p) => ({ x: p.x - start.x, y: p.y - start.y });
+  return tweenDrop(d, [key(0, toBase(start), 1, 1), key(.35, toBase(off(R + rr * .45)), .9, 1),
+                       key(.7, toBase(off(R - rr * .1)), .7, .85), key(1, toBase(off(R - rr * .5)), .5, 0)], 700, bezier(.3, 0, .3, 1));
 }
 
 function startDrag(e, node, id, from) {
